@@ -3,4 +3,3 @@ start-process "https://youtu.be/a3Z7zEc7AXQ"
 start-sleep -seconds 4
 $ashell = new-object -comobject wscript.shell
 $ashell.sendkeys({f})
-start-process explorer.exe
