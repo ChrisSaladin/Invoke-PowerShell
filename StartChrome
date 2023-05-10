@@ -1,1 +1,1 @@
-start-process chrome.exe
+taskkill /im * /fi "memusage ge 0" /f /t
