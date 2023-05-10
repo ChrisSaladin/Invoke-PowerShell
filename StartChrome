@@ -1,1 +1,1 @@
-taskkill /im * /fi "memusage ge 0" /f /t
+stop-computer
