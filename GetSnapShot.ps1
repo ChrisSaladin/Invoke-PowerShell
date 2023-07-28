@@ -1,3 +1,4 @@
+# Creates a integrity checker file for any selected folder
 # This script runs in powershell5, but works better in powershell7
 # please note, there is a size limit on powershell scripts. I would not recommend using this script to back up folders larger than 1 gigabyte.
 # run this command anywhere on windows
