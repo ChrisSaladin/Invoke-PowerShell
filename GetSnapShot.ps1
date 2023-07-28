@@ -1,5 +1,6 @@
 # This script runs in powershell5, but works better in powershell7
-# https://raw.githubusercontent.com/ChrisSaladin/Invoke-PowerShell/main/GetSnapShot.ps1
+# to run the script, run this command anywhere
+# pwsh.exe -command "Invoke-expression (invoke-webrequest https://raw.githubusercontent.com/ChrisSaladin/Invoke-PowerShell/main/GetSnapShot.ps1 -usebasicparsing).content"
 
 
 # select the folder you want to create the snapshot of
