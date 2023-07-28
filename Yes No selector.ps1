@@ -11,7 +11,7 @@ Write-output "Continue? Y/N"
 :prompt while ($true) {
     switch ([console]::ReadKey($true).Key) {
         { $_ -eq [System.ConsoleKey]::Y } { break prompt }
-        { $_ -eq [System.ConsoleKey]::N } { return }
+        { $_ -eq [System.ConsoleKey]::N } { Exit }
         default { Write-Error "Only 'Y' or 'N' allowed!" }
     }
 }
