@@ -1,3 +1,7 @@
+# This script runs in powershell5, but works better in powershell7
+# https://raw.githubusercontent.com/ChrisSaladin/Invoke-PowerShell/main/GetSnapShot.ps1
+
+
 # select the folder you want to create the snapshot of
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
