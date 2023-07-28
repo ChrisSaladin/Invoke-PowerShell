@@ -1,5 +1,8 @@
 # This script runs in powershell5, but works better in powershell7
-# run this command anywhere
+# please note, there is a size limit on powershell scripts. It is based off of how much ram powershell is using. By default, powershell can use ~1 gigabyte. 
+# to increase this limit, run this command: set-item wsman:localhost\Shell\MaxMemoryPerShellMB 4096
+# change the number at the end of the above command by multiples of 1024 to increase size limit.
+# run this command anywhere on windows
 # pwsh.exe -command "Invoke-expression (invoke-webrequest https://raw.githubusercontent.com/ChrisSaladin/Invoke-PowerShell/main/GetSnapShot.ps1 -usebasicparsing).content"
 
 
