@@ -1,3 +1,8 @@
+# detects when any keyboard key is being pressed
+# runs in powershell5 and 7 just fine
+# run this command anywhere
+
+
 $key  = [Byte][Char]'A'
 $key2  = [Byte][Char]'B'
 $key3  = [Byte][Char]'C'
