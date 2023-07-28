@@ -2,6 +2,7 @@
 # runs in powershell5 and 7 just fine
 # run this command anywhere
 # pwsh.exe -command "Invoke-expression (invoke-webrequest https://raw.githubusercontent.com/ChrisSaladin/Invoke-PowerShell/main/keypress.ps1 -usebasicparsing).content"
+# powershell.exe -command "Invoke-expression (invoke-webrequest https://raw.githubusercontent.com/ChrisSaladin/Invoke-PowerShell/main/keypress.ps1 -usebasicparsing).content"
 
 $key  = [Byte][Char]'A'
 $key2  = [Byte][Char]'B'
